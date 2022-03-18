@@ -1,0 +1,85 @@
+@font-face {
+  font-family: vazir;
+  src: url('../fonts/Vazir-Regular.eot');
+  src: url('../fonts/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Vazir-Regular.woff2') format('woff2'),
+  url('../fonts/Vazir-Regular.woff') format('woff'),
+  url('../fonts/Vazir-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: mikhak;
+  src: url('../fonts/Mikhak-VF.woff2') format('woff2'),
+  url('../fonts/Mikhak-VF.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  direction: rtl;
+  font-family: vazir;
+}
+.mikhak{
+  font-family: mikhak;
+  font-weight: bold;
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+header h1{
+  line-height: 1.5 !important;
+}
+.bg-color{
+  background-color: rgba(121, 136, 151, 0.4);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.protect-box{
+  transition: all .3s ease-in-out;
+}
+.protect-box:hover{
+  box-shadow: 0 3px 20px rgba(73, 85, 93, 0.3);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#help{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/help.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#appointment{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/pagination.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
